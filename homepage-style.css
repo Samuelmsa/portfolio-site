@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-item: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: Arial;
+}
+
+a {
+  display: flex;
+  align-item: center;
+  justify-content: center;
+ 
+}
+
+/*------------Menu superior----------*/
+
+.ol1 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  list-style-type: none;
+  color: black;
+  justify-content: center;
+}
+
+/*ajustes especificos de layout - botões*/
+
+.button2 {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  outline-style: solid;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button2:hover {
+  background-color: rgb(232, 232, 226);
+  outline-color: rgb(232, 232, 226);
+}
+
+.button2:active {
+  color: rgb(232, 232, 226);
+  transform: translate(2px, 2px);
+}
+
+/*------------------ Menu inferior -------------*/
+
+
+.ol2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  list-style-type: none;
+  color: black;
+  justify-content: center;
+  padding: 30px;
+}
+
+/*ajustes especificos de layout - botões*/
+
+.button {
+  color: black;
+  padding: 30px;
+  outline-style: solid;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgb(232, 232, 226);
+  outline-color: rgb(232, 232, 226);
+}
+
+.button:active {
+  color: rgb(232, 232, 226);
+  transform: translate(2px, 2px);
+}
+
+.circle-photo-frame {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
