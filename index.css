@@ -40,11 +40,12 @@ a {
 .ol1 {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 10px;
   list-style-type: none;
   color: #111827;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 10px;
 }
 
 /* ===== BOTÕES PRINCIPAIS ===== */
@@ -66,6 +67,13 @@ a {
 
 .button2:active {
   transform: translateY(1px);
+}
+
+.button,
+.button2 {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 /* ===== CARD PRINCIPAL ===== */
@@ -112,16 +120,17 @@ a {
 .ol2 {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 10px;
   list-style-type: none;
   color: #111827;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 10px;
 }
 
 .button {
   color: #1d4ed8;
-  padding: 12px 22px;
+  padding: 10px 26px;
   border-radius: 10px;
   border: 1px solid #d1d5db;
   background: rgba(255, 255, 255, 0.8);
