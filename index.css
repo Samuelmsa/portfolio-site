@@ -31,7 +31,9 @@ a {
 
 /* ===== MENU SUPERIOR ===== */
 .menu {
-  width: 100%;
+  width: min(100%, 640px);
+  display: flex;
+  justify-content: center;
 }
 
 .ol1 {
@@ -100,7 +102,9 @@ a {
 
 /* ===== MENU INFERIOR ===== */
 .link-to-sm {
-  width: 100%;
+  width: min(100%, 640px);
+  display: flex;
+  justify-content: center;
 }
 
 .ol2 {
