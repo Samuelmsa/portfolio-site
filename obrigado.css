@@ -1,35 +1,76 @@
+/* ===== RESET BÁSICO ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== FUNDO DA PÁGINA ===== */
 body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
-  font-family: Arial, sans-serif;
-  min-height: 100vh;
+  padding: 32px 20px;
+
+  /* Gradiente principal */
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
 }
 
+/* ===== CARD CENTRAL ===== */
+.thank-you-card {
+  width: 100%;
+  max-width: 520px;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== TEXTO ===== */
+h1 {
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+p {
+  color: #374151;
+  margin-bottom: 24px;
+}
+
+/* ===== LINK COMO BOTÃO ===== */
 a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 .button2 {
-  color: black;
-  padding: 10px 50px;
-  outline-style: solid;
-  text-decoration: none;
-  text-align: center;
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
 }
 
 .button2:hover {
-  background-color: rgb(232, 232, 226);
-  outline-color: rgb(232, 232, 226);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
 }
 
 .button2:active {
-  color: rgb(232, 232, 226);
-  transform: translate(2px, 2px);
+  transform: translateY(1px);
 }
