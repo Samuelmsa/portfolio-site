@@ -33,12 +33,13 @@ a {
 .menu {
   width: min(100%, 640px);
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .ol1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 24px;
   list-style-type: none;
   color: #111827;
@@ -104,12 +105,13 @@ a {
 .link-to-sm {
   width: min(100%, 640px);
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .ol2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 18px;
   list-style-type: none;
   color: #111827;
