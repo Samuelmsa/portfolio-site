@@ -133,4 +133,14 @@ a {
   color: #ffffff;
   background: #1d4ed8;
   transform: translateY(1px);
+  color: rgb(232, 232, 226);
+  transform: translate(2px, 2px);
+}
+
+.circle-photo-frame {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 10%;
 }
