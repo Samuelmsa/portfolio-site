@@ -78,7 +78,8 @@ label {
   color: #111827;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   width: 100%;
   padding: 12px 14px;
   border-radius: 8px;
@@ -87,7 +88,8 @@ input[type="text"] {
   font-size: 14px;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus,
+input[type="email"]:focus {
   outline: none;
   border-color: #2563eb;
   background: #ffffff;
@@ -147,4 +149,3 @@ textarea:focus {
 textarea::placeholder {
   color: #9ca3af;
 }
-
