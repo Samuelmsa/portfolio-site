@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button2 {
+  color: black;
+  padding: 10px 50px;
+  outline-style: solid;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button2:hover {
+  background-color: rgb(232, 232, 226);
+  outline-color: rgb(232, 232, 226);
+}
+
+.button2:active {
+  color: rgb(232, 232, 226);
+  transform: translate(2px, 2px);
+}
